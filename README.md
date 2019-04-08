@@ -44,5 +44,7 @@ Qualitative comparison of returning crops with different aspect ratios by differ
 
 <img src="images/landscape2.png" width="1024px"/> 
 
-
+#### Notification
+1. The released model is re-trained and slightly different from the the one used in our paper.
+2. The running speed (125 FPS) is calculated without considering the pre-processing of image, for fair comparison with previous work (the VPN).
 
