@@ -12,15 +12,15 @@ Image cropping aims to improve the composition as well as aesthetic quality of a
 
 #### Results
 
-<img src="images/defaultTop1.png" width="512px"/> 
+<img src="images/defaultTop1.png" width="1024px"/> 
 
-<img src="images/singleObject2.png" width="512px"/> 
+<img src="images/singleObject2.png" width="1024px"/> 
 
-<img src="images/multiObjects2.png" width="512px"/> 
+<img src="images/multiObjects2.png" width="1024px"/> 
 
-<img src="images/building2.png" width="512px"/> 
+<img src="images/building2.png" width="1024px"/> 
 
-<img src="images/landscape2.png" width="512px"/> 
+<img src="images/landscape2.png" width="1024px"/> 
 
 
 
