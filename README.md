@@ -39,7 +39,7 @@ Qualitative comparison of returning crops with different aspect ratios by differ
 ```
 @inproceedings{zhang2019deep,
   title={Reliable and Efficient Image Cropping: A Grid Anchor based Approach},
-  author={Hui, Zeng and Lida, Li, Zisheng, Cao and Lei, Zhang},
+  author={Zeng, Hui and Li, Lida， Cao, Zisheng and Zhang, Lei},
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
   year={2019}
 }
