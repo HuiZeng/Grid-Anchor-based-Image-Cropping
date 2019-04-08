@@ -9,6 +9,6 @@ Image cropping aims to improve the composition as well as aesthetic quality of a
 
 #### Depedency
 1. Matlab
-2. [MatConvNet](http://www.vlfeat.org/matconvnet/). 
+2. [MatConvNet](http://www.vlfeat.org/matconvnet/). Download the MatConvNet into ``tools`` and Compile it. 
 
 
