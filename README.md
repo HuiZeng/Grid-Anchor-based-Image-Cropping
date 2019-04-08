@@ -18,9 +18,9 @@ Image cropping aims to improve the composition as well as aesthetic quality of a
 ### How to run the Code
 1. Download the [MatConvNet](http://www.vlfeat.org/matconvnet/) into ``tools`` and Compile it according to the guidence therein. 
 
-2. Create a new folder ``pretrained_models`` and download the pre-trained [vgg16](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat) or [ResNet50](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) into ``pretrained_models`` if necessary.
+2. Create a new folder ``pretrained_models`` and download the pre-trained [vgg16](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat) or [ResNet50](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) into ``pretrained_models``. This is  unnecessary for evaluation.
 
-3. Create a new folder ``dataset``and download our GAIC dataset into it. 
+3. Create a new folder ``dataset``and download our GAIC dataset into it. This is  unnecessary for evaluation.
 
 For training and testing on the GAIC:
 
