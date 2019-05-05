@@ -9,7 +9,7 @@
 ```
 @inproceedings{zhang2019deep,
   title={Reliable and Efficient Image Cropping: A Grid Anchor based Approach},
-  author={Zeng, Hui and Li, Lida， Cao, Zisheng and Zhang, Lei},
+  author={Zeng, Hui, Li, Lida， Cao, Zisheng and Zhang, Lei},
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
   year={2019}
 }
