@@ -5,7 +5,7 @@
 
 #### A pytorch evaluation code can be downloaded [here](https://drive.google.com/open?id=1owO_je8fHyiEHeZFup2EqxgxvoeYWBPq), which may obtain slightly different results of the Matlab version.
 
-The pytorch code has been updated at 2019/5/5 with bugs fixed.
+The pytorch code was last updated at 2019/5/5 with bugs fixed.
 
 ### Citation
 ```
