@@ -1,6 +1,6 @@
 # Grid-Anchor-based-Image-Cropping
 
-###Notification
+### Notification
 We recently found an implementation bug in calcualating the Acc which were slightly different from the Acc defined in our paper. Fortunately, this bug does not affect any of the conclusions in our paper. We have corrected this bug in the Matlab code and updated the corresponding values in the revised paper using blue-color font. We apologize for the confusion to readers. The detailed change can be found here.
 
 ### Material
