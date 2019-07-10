@@ -1,7 +1,7 @@
 # Grid-Anchor-based-Image-Cropping
 
 ### Notification
-We recently found an implementation bug in calcualating the Acc indexes which were slightly different from the definition in our paper. Fortunately, this bug does not affect any of the conclusions in our paper. We have corrected this bug in the Matlab code and updated the corresponding values in the revised paper using blue-color font. We apologize for the confusion to readers. The detailed change can be found here.
+We recently found an implementation bug in calcualating the Acc indexes which were slightly different from the definition in our paper. Fortunately, this bug does not affect any of the conclusions in our paper. We have corrected this bug in the Matlab code and updated the corresponding values in the revised paper using blue-color font. We apologize for the confusion to readers. The detailed change can be found (https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping/commit/5818679685fa1e11ee143f65cc3eb495622349bc#diff-d2f9e0c4e433d155b38659652521d46a).
 
 ### Material
 ### [Paper](https://drive.google.com/file/d/1q9jxaJEn2AhEgQEUKHOgGCPQtHRuGNO3/view?usp=sharing), [Supplementary](https://drive.google.com/open?id=154BHBSzl-C9tP-5Gvjcf6GJmNCVv6X-l), [Dataset](https://drive.google.com/open?id=1KhmyjoimsQVXqPnLjKZiU4iXNKNyyxqW), [Model](https://drive.google.com/open?id=1OvLT_ul17zCK4ljAi4myGAgA50PmLy3Y)，[PCT Patent].
