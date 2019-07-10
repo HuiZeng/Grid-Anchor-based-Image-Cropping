@@ -15,9 +15,9 @@ gt_scores = cat(2,imdb.bbox.gt_scores{imdb.images.set==1});
 gt_scores_means = mean(gt_scores);
 gt_scores_stds = std(gt_scores);
 
-acc5 = [];
-acc10 = [];
 for epoch = 1:Epoches
+    acc5 = zeros(200,4);
+    acc10 = zeros(200,4);
     fprintf('processing epoch %d\n',epoch);
     netStruct = load(fullfile(modelDir,['net-epoch-',num2str(epoch) '.mat']),'net');
     net = dagnn.DagNN.loadobj(netStruct.net) ;
@@ -66,19 +66,21 @@ for epoch = 1:Epoches
         [~,id_baseline] = sort(ss,'descend');
 
         for k = 1:4
-            if gts(id_preds(k)) >= gts_sorted(5)
-                acc5(i,k) = 1;
-            else
-                acc5(i,k) = 0;
+            for j = 1:k
+                if gts(id_preds(j)) >= gts_sorted(5)
+                    acc5(i,k) = acc5(i,k) + 1;
+                end
             end
+            acc5(i,k) = acc5(i,k) / k;
         end
         
         for k = 1:4
-            if gts(id_preds(k)) >= gts_sorted(10)
-                acc10(i,k) = 1;
-            else
-                acc10(i,k) = 0;
+            for j = 1:k
+                if gts(id_preds(j)) >= gts_sorted(10)
+                    acc10(i,k) = acc10(i,k) + 1;
+                end
             end
+            acc10(i,k) = acc10(i,k) / k;
         end
     end
     toc;
