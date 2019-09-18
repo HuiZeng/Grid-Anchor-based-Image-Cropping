@@ -1,6 +1,6 @@
 # Grid-Anchor-based-Image-Cropping
 
-#### I have upload a pytorch implementation which contains several extensions to the conference version. Please visit [here](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch) for details.
+#### I have uploaded a pytorch implementation which contains several extensions to the conference version. Please visit [here](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch) for details.
 
 
 ### Notification
