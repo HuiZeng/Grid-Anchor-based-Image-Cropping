@@ -1,12 +1,14 @@
 # Grid-Anchor-based-Image-Cropping
 
+#### I have upload a pytorch implementation which contains several extensions to the conference version. Please visit [here](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch) for details.
+
+
 ### Notification
 We recently found an implementation bug in calcualating the Acc indexes which were slightly different from the definition in our paper. Fortunately, this bug does not affect any of the conclusions in our paper. We have corrected this bug in the Matlab code and updated the corresponding values in the revised paper using blue-color font. We apologize for the confusion to readers. The detailed changes in code can be found in this issue [#9](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping/issues/9).
 
 ### Material
 ### [Paper](https://drive.google.com/file/d/1q9jxaJEn2AhEgQEUKHOgGCPQtHRuGNO3/view?usp=sharing), [Supplementary](https://drive.google.com/open?id=154BHBSzl-C9tP-5Gvjcf6GJmNCVv6X-l), [Dataset](https://drive.google.com/open?id=1KhmyjoimsQVXqPnLjKZiU4iXNKNyyxqW), [Model](https://drive.google.com/open?id=1OvLT_ul17zCK4ljAi4myGAgA50PmLy3Y)，[PCT Patent].
 
-#### A pytorch evaluation code can be downloaded [here](https://drive.google.com/open?id=1owO_je8fHyiEHeZFup2EqxgxvoeYWBPq), which may obtain slightly different results of the Matlab version.
 
 The pytorch code was last updated at 2019/5/5 with bugs fixed.
 
